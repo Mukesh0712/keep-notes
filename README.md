@@ -8,4 +8,4 @@
 
 ![](./public/Screenshots/Screenshot%20(3).png)
 
-[Live Link](https://keep-notes-here.netlify.app/)
+[Live Project Link](https://keep-notes-here.netlify.app/)
