@@ -12,13 +12,13 @@
 .notes-container {
     background: transparent;
     padding: 10px;
-    width: 550px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
     height: 300px;
     overflow-y: scroll;
-    border: 3px solid white;
+    border: 2px solid white;
 }
 
 .note-editor-container {
@@ -48,4 +48,18 @@
     text-align: center;
     color: #fff;
     font-weight: 700;
+}
+
+.custom-row{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.custom-col{
+    width: 450px;
+    margin: 20px;
+}
+
+.app-logo{
+    
 }

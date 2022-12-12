@@ -69,8 +69,9 @@ function Home() {
         <h1 className='app-title'>Keep Notes 🗒️</h1>
       </div>
 
-      <div className='row m-5'>
-        <div className='col-md-6'>
+      <div className='row d-flex justify-content-evenly custom-row'>
+
+        <div className='col-md-6 custom-col'>
           <div className='notes-container'>
             {
               notes.map((note, index) => {
@@ -80,7 +81,7 @@ function Home() {
           </div>
         </div>
 
-        <div className='col-md-6'>
+        <div className='col-md-6 custom-col'>
           <div className='note-editor-container'>
             <h3 className='text-center mb-5'>Add Note</h3>
             <form>
