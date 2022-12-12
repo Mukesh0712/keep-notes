@@ -1,0 +1,35 @@
+.card-note{
+  border: 1px solid black;
+  width: 500px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: transparent;
+  border: 2px solid white;
+  color: #fff;
+}
+
+.card-note-title{
+  margin: 0;
+}
+
+.card-note-content{
+  margin: 0;
+}
+
+.delete-button{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  border: 2px red solid;
+  border-radius: 50%;
+
+}
+
+.delete-button:hover{
+}

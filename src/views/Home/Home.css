@@ -1,0 +1,51 @@
+.app-title-container {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.app-title {
+    text-align: center;
+}
+
+.notes-container {
+    background: transparent;
+    padding: 10px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 3px solid white;
+}
+
+.note-editor-container {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    height: 300px;
+    color: #fff;
+}
+
+.add-note-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-style:hover{
+    background: transparent;
+    border: 2px solid yellow;
+    color: #fff;
+}
+
+.footer{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
